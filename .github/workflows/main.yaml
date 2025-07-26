@@ -1,0 +1,11 @@
+name: Skibidi Workflow
+
+on:
+  workflow_dispatch:  # Cho phép chạy thủ công từ GitHub UI
+
+jobs:
+  say-skibidi:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Skibidi
+        run: echo skibidi
